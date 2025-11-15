@@ -1,0 +1,31 @@
+# Git ignore file generated to ignore model/data and training runs
+# Ignore top-level models directory and any model artifacts
+/models/
+
+# Ignore datasets
+/data/
+
+# Ignore yolov5 build/checkpoints within app
+/app/yolov5/
+
+# Ignore training runs (logs, event files, weights)
+/app/runs/
+
+# Common large model file patterns
+*.pt
+*.pth
+
+# Generic training outputs
+/runs/
+/weights/
+
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments and env files
+venv/
+env/
+.env
+
